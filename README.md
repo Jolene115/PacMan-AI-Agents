@@ -1,4 +1,4 @@
-## Pacman AI Agents – Search & Multi‑Agent Decision Making
+### Pacman AI Agents – Search & Multi‑Agent Decision Making
 
 Implemented AI agents for the Pacman game using classical search and multi‑agent adversarial decision making in Python.
 
