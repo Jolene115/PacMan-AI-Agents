@@ -49,13 +49,13 @@ python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 pip install -r requirements.txt#### Run Search Agents (BFS / DFS / UCS / A*)
 
-# Example commands – adjust agent/function names to match your code
+### Example commands – adjust agent/function names to match your code
 python pacman_core/pacman.py -l smallClassic -p SearchAgent -a fn=depthFirstSearch
 python pacman_core/pacman.py -l smallClassic -p SearchAgent -a fn=breadthFirstSearch
 python pacman_core/pacman.py -l mediumClassic -p SearchAgent -a fn=uniformCostSearch
 python pacman_core/pacman.py -l mediumClassic -p SearchAgent -a fn=aStarSearch,heuristic=manhattanHeuristic#### Run Multi‑Agent Agents (Minimax / Alpha‑Beta / Expectimax)
 
-# Replace agent names with the ones defined in your multiAgents.py
+### Replace agent names with the ones defined in your multiAgents.py
 python pacman_core/pacman.py -l mediumClassic -p MinimaxAgent -a depth=2
 python pacman_core/pacman.py -l mediumClassic -p AlphaBetaAgent -a depth=3
 python pacman_core/pacman.py -l mediumClassic -p ExpectimaxAgent -a depth=2#### Run Advanced Evaluation Agent (Your Part 2 Highlight)
