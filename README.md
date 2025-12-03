@@ -60,8 +60,8 @@ python pacman_core/pacman.py -l mediumClassic -p MinimaxAgent -a depth=2
 python pacman_core/pacman.py -l mediumClassic -p AlphaBetaAgent -a depth=3
 python pacman_core/pacman.py -l mediumClassic -p ExpectimaxAgent -a depth=2#### Run Advanced Evaluation Agent (Your Part 2 Highlight)
 
-# Example: using your advanced evaluation function
-# Replace ReflexAgent / betterEvaluationFunction if your names are different
+### Example: using your advanced evaluation function
+### Replace ReflexAgent / betterEvaluationFunction if your names are different
 python pacman_core/pacman.py -l mediumClassic -p ReflexAgent -a evalFn=betterEvaluationFunctionUpdate the agent class names and arguments above to match your implementation.
 
 ---
